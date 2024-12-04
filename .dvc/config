@@ -1,4 +1,6 @@
 [core]
-    remote = mylocalremote
+    remote = model-store
 ['remote "mylocalremote"']
     url = /home/sensetime/dvc_remote
+['remote "model-store"']
+    url = s3://models-dvc-modified-version/trained_models/

@@ -1,0 +1,8 @@
+services:
+    prediction_api:
+        build: .
+        container_name: "inference_container"
+        ports:
+            - "8000:8000"
+        volumes:
+            - /home/sensetime/dvc_remote:/mnt/dvc_remote  # Map the remote directory to the container

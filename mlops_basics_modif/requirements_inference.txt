@@ -9,4 +9,5 @@ onnxruntime
 fastapi
 uvicorn
 dvc
+tokenizers
 dvc[s3]
